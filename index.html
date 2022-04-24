@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/styles.css" rel="stylesheet">
+
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="headerWrapper">
+<header>
+    <img src="images/SwagLogo.png" alt="logo">
+ <h1>Swag Shop</h1>
+       
+    </header>
+</div>	
+    
+<!-- NAVIGATION HERE -->
+<div id="navWrapper">
+<nav class="clearfix">
+        <button id="hamburgerbtn">&#9776;</button>
+        <ul id="primarynav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Deals</a></li>
+            <li class="active"><a href="#">Order</a></li>  
+            <li><a href="#">Customer Reviews</a></li>  
+        </ul>
+    </nav>
+</div>   
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1>Order</h1>
+        <form method="get" action=thanks.html>
+            <fieldset>
+                <legend class="top">Customer Information</legend>
+              <label class="top"> Full Name* <input type="text" name="fname" required></input> </label>
+              <label class="top"> Phone* <input type="tel" name="phone" placeholder="1235554231" required></input> </label>
+              <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"></input> </label>
+
+              
+            </fieldset>
+        
+            
+    <fieldset>
+    <legend> Swag Information</legend>
+    <label class="top"> Date Needed <input type="date" name="completeDate"> </label>
+    <label class="top"> Business Name<input type="text" name="Bname"></input> </label>
+    <label class="top"> Business URL <input type="url" name="url" placeholder="http://"></input> </label>
+   <br>
+    <label> Color
+        <select name="subject">
+            <option value=""> Please Select</option>
+            <option value="software"> Red</option>
+            <option value="creative"> Orange</option>
+            <option value="info"> Blue</option>
+            <option value="data"> Purple</option>
+            <option value="construction"> Green</option>
+            <option value="manufacturing"> Black</option>
+            <option value="business"> Grey </option>
+            <option value="security">White</option>
+        </select>
+        <br>
+        <br>
+        <label> Quanity <input type="number" name="authors" > </label>
+    
+    <div>Material</div>
+    <label class="sbs"><input type="radio" name="audience" value="beginner"> Aluminum </label>
+    <label class="sbs"><input type="radio" name="audience" value="intermediate"> Plastic </label>
+  
+    
+    </fieldset>
+    
+    <fieldset>
+    <legend>Payment Information</legend>
+    <label class="top"> Name on Card* <input type="text" name="fname" required></input> </label>
+              <label class="top"> Card Number* <input type="tel" name="phone" placeholder="1235554231" required></input> </label>
+              <label class="top"> Expiration Date* <input type="tel" name="phone" placeholder="1235554231" required></input> </label>
+    
+    </label>
+    
+  
+    </fieldset>
+    <input type="submit" value = "Order My Swag" class="submitBtn">     
+    
+    </form>   
+    </main>
+    
+<!-- FOOTER HERE -->   
+<div id="footer">
+<footer>
+        &copy; 2022 &bull; Abigail Fergus &bull; Login 
+    </footer> </div>   
+<script src="js/scripts.js"></script>
+</body>
+</html>

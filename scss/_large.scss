@@ -1,0 +1,40 @@
+header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+nav{
+        button{ display:none;}
+        ul, ul.open {
+                
+                border:none;
+                display: flex;
+                justify-content: flex-end;
+                
+
+
+        }
+        ul li {border:none;}
+}
+/*----------- MAIN --------------*/
+main{
+        div.card {
+            flex-basis: 31.333%;
+            
+        }
+    
+        }
+        
+             
+
+
+/*----------- FOOTER --------------*/
+    
